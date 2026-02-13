@@ -1,0 +1,34 @@
+Analyzing KidsApp...                                            
+
+   info • Don't invoke 'print' in production code • lib/screens/dashboard/dashboard_overview_screen.dart:52:7 • avoid_print
+warning • Unused import: 'package:kids_learning_app/screens/parent_dashboard_screen.dart' • lib/screens/onboarding_screen.dart:5:8 • unused_import
+warning • Unused import: 'package:kids_learning_app/models/video.dart' • lib/screens/video_feed_screen.dart:4:8 • unused_import
+   info • Don't invoke 'print' in production code • lib/screens/video_feed_screen.dart:44:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/screens/video_feed_screen.dart:83:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/screens/video_feed_screen.dart:140:21 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/mock_data_service.dart:51:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/mock_data_service.dart:72:7 • avoid_print
+warning • Unused import: 'package:kids_learning_app/models/topic.dart' • lib/services/supabase_service.dart:2:8 • unused_import
+warning • Unused import: 'package:kids_learning_app/models/knowledge_unit.dart' • lib/services/supabase_service.dart:3:8 • unused_import
+   info • Don't invoke 'print' in production code • lib/services/supabase_service.dart:19:5 • avoid_print
+warning • The value of the local variable 'random' isn't used • lib/services/supabase_service.dart:64:13 • unused_local_variable
+   info • Don't invoke 'print' in production code • lib/services/supabase_service.dart:98:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/supabase_service.dart:145:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/supabase_service.dart:158:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/supabase_service.dart:172:7 • avoid_print
+   info • Use 'const' with the constructor to improve performance • lib/widgets/dashboard/progress_chart.dart:46:25 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/widgets/dashboard/progress_chart.dart:47:27 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/widgets/dashboard/progress_chart.dart:49:24 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/widgets/dashboard/progress_chart.dart:50:27 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/widgets/dashboard/progress_chart.dart:52:26 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/widgets/dashboard/progress_chart.dart:53:27 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/widgets/dashboard/progress_chart.dart:56:21 • prefer_const_constructors
+   info • Don't invoke 'print' in production code • lib/widgets/question_widget.dart:49:7 • avoid_print
+   info • Use 'const' with the constructor to improve performance • lib/widgets/video_item.dart:38:18 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/widgets/video_item.dart:39:20 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/widgets/video_item.dart:41:22 • prefer_const_constructors
+   info • Don't invoke 'print' in production code • lib/widgets/video_item.dart:53:7 • avoid_print
+   info • Use 'const' with the constructor to improve performance • lib/widgets/video_item.dart:69:16 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/widgets/video_item.dart:70:18 • prefer_const_constructors
+
+30 issues found. (ran in 5.4s)
