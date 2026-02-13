@@ -7,7 +7,6 @@ import 'package:kids_learning_app/providers/providers.dart';
 import 'package:kids_learning_app/screens/onboarding_screen.dart';
 import 'package:kids_learning_app/screens/video_feed_screen.dart';
 import 'package:kids_learning_app/screens/dashboard/dashboard_overview_screen.dart';
-import 'package:kids_learning_app/screens/admin/admin_dashboard_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -50,10 +49,7 @@ class KidsApp extends ConsumerWidget {
           path: '/dashboard',
           builder: (context, state) => const DashboardOverviewScreen(),
         ),
-        GoRoute(
-          path: '/admin',
-          builder: (context, state) => const AdminDashboardScreen(),
-        ),
+
         GoRoute(
           path: '/',
           builder: (context, state) => const Scaffold(
